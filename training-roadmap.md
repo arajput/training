@@ -94,6 +94,10 @@ https://javascript.info/
 ## Typescript
 
 ## PHP
+PHP Roadmap
+![HP Roadmap](resources/images/php-roadmap.jpeg)
+https://redblink.com/php-developer-roadmap/
+https://github.com/thecodeholic/php-developer-roadmap
 
 ## Python
 
