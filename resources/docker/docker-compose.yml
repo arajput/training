@@ -6,3 +6,15 @@ services:
       - ./mysite:/var/www/html/
     ports:
       - 9090:80
+  db:
+    image: mariadb:latest
+    ports:
+     - 3322:3306
+    volumes:
+     - ./db:/var/lib/mysql
+    environment:
+     - MYSQL_ROOT_PASSWORD=mysql123
+     - MYSQL_DATABASE=mydb
+     - MYSQL_USER=dbuser1
+     - MYSQL_PASSWORD=dbuser1    
+      
